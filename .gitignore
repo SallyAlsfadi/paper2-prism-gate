@@ -1,10 +1,7 @@
-# data
+# data (do not commit raw industrial exports)
 data/raw/*.csv
 data/intermediate/
 data/processed/
-
-# outputs
-outputs/
 
 # python
 __pycache__/
@@ -13,3 +10,10 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# outputs: keep baseline + logs tracked, ignore everything else
+outputs/*
+!outputs/baseline/
+!outputs/baseline/**
+!outputs/logs/
+!outputs/logs/**

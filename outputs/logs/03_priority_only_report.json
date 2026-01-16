@@ -1,0 +1,29 @@
+{
+  "rows": 6827,
+  "priority_distribution": {
+    "Major": 3873,
+    "Minor": 2091,
+    "Trivial": 492,
+    "Critical": 217,
+    "Blocker": 154
+  },
+  "ordering": {
+    "primary": "priority (Blocker > Critical > Major > Minor > Trivial)",
+    "tie_breakers": [
+      "created_ts (older first)",
+      "issue_key (asc)"
+    ]
+  },
+  "top10_issue_keys": [
+    "AIRFLOW-56",
+    "AIRFLOW-106",
+    "AIRFLOW-434",
+    "AIRFLOW-447",
+    "AIRFLOW-607",
+    "AIRFLOW-660",
+    "AIRFLOW-695",
+    "AIRFLOW-719",
+    "AIRFLOW-727",
+    "AIRFLOW-738"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "rows_before": 7038,
+  "rows_after": 6827,
+  "removed_short_text": 211,
+  "min_len": 30,
+  "text_len_describe": {
+    "count": 7038.0,
+    "mean": 751.1967888604718,
+    "std": 2105.341456069759,
+    "min": 2.0,
+    "25%": 142.0,
+    "50%": 337.0,
+    "75%": 685.75,
+    "max": 112845.0
+  },
+  "removed_examples_shortest5": [
+    {
+      "issue_key": "AIRFLOW-6078",
+      "priority": "Major",
+      "issue_type": "Bug",
+      "status": "Closed",
+      "text_len": 2,
+      "text": "cc"
+    },
+    {
+      "issue_key": "AIRFLOW-1426",
+      "priority": "Major",
+      "issue_type": "Bug",
+      "status": "Closed",
+      "text_len": 5,
+      "text": "recap"
+    },
+    {
+      "issue_key": "AIRFLOW-2182",
+      "priority": "Major",
+      "issue_type": "New Feature",
+      "status": "Closed",
+      "text_len": 10,
+      "text": "Configured"
+    },
+    {
+      "issue_key": "AIRFLOW-91",
+      "priority": "Major",
+      "issue_type": "Improvement",
+      "status": "Closed",
+      "text_len": 12,
+      "text": "Ssl gunicorn"
+    },
+    {
+      "issue_key": "AIRFLOW-3980",
+      "priority": "Trivial",
+      "issue_type": "Improvement",
+      "status": "Resolved",
+      "text_len": 12,
+      "text": "Unify logger"
+    }
+  ]
+}
