@@ -1,0 +1,15 @@
+# data
+data/raw/*.csv
+data/intermediate/
+data/processed/
+
+# outputs
+outputs/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
