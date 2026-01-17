@@ -1,0 +1,6 @@
+{
+  "rule": "LOCKED_GATE_V2",
+  "S_min_quantile": 0.10,
+  "V_max_quantile": 0.90,
+  "notes": "Minimal admissibility gate: defer bottom-decile specificity and top-decile volatility. Thresholds declared, not optimized."
+}
